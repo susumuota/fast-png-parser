@@ -1,0 +1,46 @@
+{
+  "name": "fast-png-parser",
+  "version": "0.9.0",
+  "description": "Fast, lightweight and memory efficient PNG chunk parser.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -r dist",
+    "test": "cd test && rm *.js && tsc && node --test"
+  },
+  "author": {
+    "name": "Susumu OTA",
+    "email": "1632335+susumuota@users.noreply.github.com",
+    "url": "https://github.com/susumuota"
+  },
+  "keywords": [
+    "png",
+    "chunk",
+    "parse",
+    "extract",
+    "split",
+    "metadata",
+    "image",
+    "width",
+    "height",
+    "IHDR",
+    "tEXt"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susumuota/fast-png-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/susumuota/fast-png-parser/issues"
+  },
+  "homepage": "https://github.com/susumuota/fast-png-parser#readme",
+  "devDependencies": {
+    "@tsconfig/node-lts-strictest-esm": "^18.12.1",
+    "@types/node": "^18.11.18",
+    "crc-32": "^1.2.2",
+    "typescript": "^4.9.4"
+  }
+}
