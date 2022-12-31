@@ -2,6 +2,12 @@
 
 Fast, lightweight and memory efficient PNG chunk parser.
 
+## Install
+
+```sh
+npm install --save fast-png-parser
+```
+
 ## Usage
 
 - Extract the first `tEXt` chunk without CRC check.
